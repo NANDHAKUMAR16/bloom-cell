@@ -1,0 +1,5 @@
+Model	      JSON Validity 	Fuzzy Matching	Long Context (≥128k)	Hallucination Risk	Reasoning Quality	Final Verdict
+
+GPT‑4o ✅	✅ json mode	     ✅ strong	    ✅ 128k	              🔒 Very Low (T=0) ✅ Excellent	        ✅ Recommended
+
+
