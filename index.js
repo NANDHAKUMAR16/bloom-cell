@@ -764,11 +764,10 @@ app.get("/health", (req, res) => {
   });
 });
 
-app.use("/", () => {
+app.use("/", (req, res) => {
   console.log("Hello");
   res.json({
-    message:
-      "Welcome to the Medical Lab Server. Use /extractReportGemini to extract biomarkers and /analyzeWithDataset to analyze them.",
+    message: "Welcome to the Medical Lab Server",
   });
 });
 // ========== SERVER STARTUP ==========
